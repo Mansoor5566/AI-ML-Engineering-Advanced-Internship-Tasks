@@ -4,14 +4,16 @@ langchain==0.2.16
 langchain-community==0.2.16
 langchain-core==0.2.38
 
-langchain-groq
-langchain-huggingface
+langchain-groq==0.1.9
+langchain-huggingface==0.0.3
 
-faiss-cpu
-sentence-transformers
+faiss-cpu==1.8.0.post1
 
-transformers
+sentence-transformers==2.7.0
+transformers==4.44.2
+
 torch
+torchvision
 
 wikipedia
 tiktoken
