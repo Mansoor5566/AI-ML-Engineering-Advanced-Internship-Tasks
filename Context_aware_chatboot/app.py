@@ -203,7 +203,7 @@ def load_rag_system():
     )
 
     vectorstore = FAISS.load_local(
-        "vectorstore",
+        "Context_aware_chatboot/vectorstore",
         embeddings,
         allow_dangerous_deserialization=True
     )
